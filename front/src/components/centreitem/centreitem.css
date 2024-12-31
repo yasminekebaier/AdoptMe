@@ -1,0 +1,69 @@
+
+.container2 .location {
+  display: flex;
+  align-items: center;
+ 
+}
+
+.container2 .location .icon {
+  font-size: 20px;
+  color: #8F8F8F;
+  margin-right: 10px;
+}
+
+.container2 .location p {
+  font-size: 16px;
+  color: #8F8F8F;
+  
+}
+
+.container2 .description {
+  margin: 20px 0;
+}
+
+.container2 .description p {
+  font-size: 14px;
+  color: #4A4A4A;
+  margin: 0;
+  line-height: 1.5;
+}
+
+.container2 .facebook {
+  display: flex;
+  align-items: center;
+}
+
+.container2 .facebook .icon {
+  font-size: 20px;
+  color: #8F8F8F;
+  margin-right: 10px;
+}
+
+.container2 .facebook a {
+  font-size: 16px;
+  color: #4A4A4A;
+  text-decoration: none;
+}
+/* .item {
+  width: 350px;
+  height: 300px;
+} */
+.container2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center; 
+  max-width: 90%;
+}
+
+.container2 img {
+  width: 50%;
+  height: 50%;
+  object-fit: cover;
+}
+
+.content{
+  overflow: hidden;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}

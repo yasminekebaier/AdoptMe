@@ -1,0 +1,67 @@
+ .about {
+    position: relative; 
+   
+    
+    width: 100%;
+     height: 100%; 
+   
+    color: rgb(10, 10, 10);
+  }  
+  /* .containers{
+    margin-top: 0%;
+    margin-left: 20px;
+    width: 100%;
+    height: 100%; 
+    
+  }
+  .containers .text{
+    margin-left: 20px;
+    margin-right: 20%; 
+  }
+   .containers .btn{
+     background-color: burlywood;
+     /* position: absolute; */
+  /*    position:relative;
+    
+     left: 50%;
+     transform: translate(-50%, -50%);
+     font-size: 18px;
+    
+  } 
+  .containers .adopt{
+    color: black;
+  }
+ */ 
+ .image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60vh; /* réglez la hauteur en fonction de vos besoins */
+}
+
+.image img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  min-width: 100%; /* élargissez l'image à gauche et à droite */
+}
+
+.aboutCard {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+ .image .text{
+  color: #000;
+}
+.image .btn{
+  background-color: burlywood;
+  left: 50%;
+     transform: translate(-50%, -50%);
+     font-size: 18px;
+     margin-top: 20%;
+}

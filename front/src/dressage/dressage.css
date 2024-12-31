@@ -1,0 +1,64 @@
+.dressage {
+    width: 85%;
+    height: 260px;
+    border-radius: 10px;
+     /* -webkit-box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.68); */ 
+     box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.68); 
+     margin: 30px 40px;
+     
+  }
+  .image-container {
+    flex: 1; /* Définissez la largeur du conteneur de l'image en fonction de vos besoins */
+    margin-right: 20px; /* Ajoutez une marge à droite pour séparer l'image du cadre */
+  }
+  
+  .dressage img {
+    float: left;
+    margin-right: 20px;
+    width: 27%;
+    height: 90%;
+  }
+   .text-container {
+    /* flex: 1; */
+    /*  display: flex; 
+    flex-direction: column;
+     justify-content: flex-start;  /* Aligner le contenu en haut */
+    height: 260px;
+     background-color: #f2f2f2;
+     border: 1px solid #ccc;  
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);  
+       margin-left: 27%;
+    margin-top: 20px;
+    margin-bottom: 20px;   
+    display: flex;
+  flex-direction: column;
+  } 
+  
+  .text-container h3 {
+    margin-top: 0; /* Supprimer la marge par défaut du titre h3 */
+  }
+  .location-icon {
+    font-size: 24px;
+  }
+  .info-container {
+    display: flex;
+    align-items: center;
+   
+  }
+  .location-container,
+.contact-container {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.contact-container {
+  margin-top: 10px;
+}
+
+.contact-icon {
+  margin-right: 5px;
+  font-size: 24px;
+}
+
